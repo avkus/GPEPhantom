@@ -13,6 +13,8 @@ services:
       - ./config.yaml:/CLIProxyAPI/config.yaml
       - ./auths:/root/.cli-proxy-api
       - ./logs:/CLIProxyAPI/logs
+    # ПРИНУДИТЕЛЬНЫЙ ЗАПУСК С КОНФИГОМ
+    command: ["/CLIProxyAPI/CLIProxyAPIPlus", "--config", "/CLIProxyAPI/config.yaml"]
 
   cloudflared:
     image: cloudflare/cloudflared:latest
