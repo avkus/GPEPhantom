@@ -61,3 +61,5 @@ _bmad-output/*
 .cli-proxy-api/
 .venv/
 *.bak
+.env
+config.yaml
