@@ -1,6 +1,6 @@
 # CLIProxyAPI Plus
 
-English | [Chinese](README_CN.md)
+English | [Russian](README_RU.md)
 
 This is the Plus version of [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI), adding support for third-party providers on top of the mainline project.
 
