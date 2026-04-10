@@ -1,0 +1,7 @@
+name = "gphantom-bridge"
+main = "src/index.js"
+compatibility_date = "2024-04-05"
+
+[vars]
+TARGET_HOST = "api.gphantom.ru"
+BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
