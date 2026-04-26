@@ -20,15 +20,3 @@
 ### Репозиторий кода Worker
 Исходный код вашего Cloudflare worker надежно хранится в вашем репозитории по пути:
 `e:\AI-Ecosystem\The-Phantom-Nexus\GPEPhantom\workers\gphantom-bridge`
-
-### Pi Agent `models.json`
-Файл конфигурации (`C:\Users\andre\.pi\agent\models.json`) был обновлен:
-- **Base URL**: `https://gphantom-bridge.avkus.workers.dev/v1`
-- **Секреты удалены**: Токены Cloudflare больше не хранятся в открытом виде локально.
-- **Модели**: Все 22 активные модели были корректно префиксированы (`api/`, `cli/`, `vertex/`, `at/`).
-
-## Очистка
-Теперь вы можете безопасно удалить временный локальный скрипт-перехватчик:
-```powershell
-rm C:\Users\andre\.pi\agent\gphantom_bridge.js
-```

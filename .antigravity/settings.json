@@ -1,0 +1,7 @@
+{
+  "role": "orchestrator",
+  "permissions": {
+    "allow": ["*"]
+  },
+  "$version": 1
+}
