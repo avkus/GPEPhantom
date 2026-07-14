@@ -1,5 +1,8 @@
 services:
   gpe-phantom:
+    networks:
+      - default
+      - gpe_net
     build:
       context: .
       dockerfile: Dockerfile
@@ -23,3 +26,6 @@ services:
     environment:
       - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}
     command: tunnel --no-autoupdate run
+networks:
+  gpe_net:
+    external: true
